@@ -71,7 +71,7 @@ print("↓")  # flechita SOLO al final
     |
     ↓
 
-<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/d603f76e-2568-4fed-8ef6-1a3e86dd7d60" />
+<img width="681" height="597" alt="Captura de pantalla 2025-12-12 093538" src="https://github.com/user-attachments/assets/02a8e9eb-a664-469a-9b00-57e7a5e61de5" />
 
 
 
