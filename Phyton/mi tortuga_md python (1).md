@@ -9,6 +9,8 @@ turtle.done()         # Mantiene la ventana abierta
 
 ``` python
 #Reto1. Simula el comportamiento de la tortuga usando solo print y input
+# COMENTARIOS
+# ACA HACEMOS QUE SE MUEVA HACIA ADELANTE USANDO PRINT Y IMPUT
 
 print("Simulación de tortuga:")
 # Se POSICIONO LA TORTUGA EN LA POSICION INICIAL 0 Y AVANZA 50 UNIDADES DIBUJANDO SU RASTRO
@@ -44,6 +46,8 @@ print("La nueva posición es:", posicion)
 ``` python
 #Reto2. Simula la tortuga bajando usando solo print y input
 #crea el rastro de una tortuga moviendose hacia abajo usando unicamente print e input.
+# COMENTARIOS
+# ACA HACEMOS QUE LA TORTUGA SE MUEVA HACIA ABAJO, IGUAL QUE EN EL RETO ANTERIOR LE PEDIMOS DATOS AL USUARIO PARA QUE LA TORTUGA BAJE
 
 print("Simulación de tortuga bajando:")
 #la tortuga avanza hacia abajo dejando el rastro de su movimiento
@@ -78,6 +82,8 @@ print("↓")  # flechita SOLO al final
 ``` python
 #Reto3. Tortuga avanzando hacia adelante y luego hacia abajo
 # Crea el rastro de una tortuga moviendose hacia adelante y luego hacai abajo usando unicamente print e input.
+# COMENTARIOS
+# ACA PODEMOS VER COMO LA TORTUGA AVANZA Y LUEGO HACE UN GIRO HACIA ABAJO, UTILIZANDO PRIN Y IMPUT E IGUALMENTE PREGUNTANDO AL USUARIO
 
 print("Simulación de tortuga:\n")
 # LA TORTUGA REALIZA UN RECORRIDO EN FORMA DE L
@@ -118,9 +124,11 @@ print("\nLa tortuga ha terminado su recorrido.")
 ``` python
 #Reto4. Girar y dibujar usando solo print e input.
 # ahora la tortuga no solo avanza: tambien gira, observa como lo hace la version grafica.
+# COMENTARIOS
+EN ESTE EJERCICIO PODEMOS VER COMO YA NO SE PREGUNTAN LOS DATOS AL USUARIO, SI NO QUE SE PROGRAMAN ESOS DATOS PARA QUE SEA DE FORMA AUTOMATICA, OSEA UTILIZANDO FUNCIONES.
+#LA TORTUGA DIBUJA 3 ESCALONES  SIGUIENDO INSTRUCCIONES Y DIBUJANDO SU RASTRO
 
 print("Simulación de tortuga dibujando escalones\n")
-#LA TORTUGA DIBUJA 3 ESCALONES  SIGUIENDO INSTRUCCIONES Y DIBUJANDO SU RASTRO
 # --- ESCALÓN 1 ---
 print("Escalón 1:")
 input("ENTER para avanzar 5...")
