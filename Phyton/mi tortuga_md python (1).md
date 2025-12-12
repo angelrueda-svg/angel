@@ -38,7 +38,8 @@ print("La nueva posición es:", posicion)
     La tortuga avanzó 50 unidades.
     La nueva posición es: 50
 
-<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/226a8d3b-58ce-4e95-a42e-0ccad4b3e6d7" />
+< ![WhatsApp Image 2025-12-10 at 11 05 50 PM](https://github.com/user-attachments/assets/7f792c8e-1f3b-473f-ad32-94b15539f0af)
+>
 
 
 ``` python
