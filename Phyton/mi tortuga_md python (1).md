@@ -111,7 +111,8 @@ print("\nLa tortuga ha terminado su recorrido.")
 
     La tortuga ha terminado su recorrido.
 
-<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/f727fb1f-6b8c-40e8-a0ab-3fd0bdc2b441" />
+<img width="727" height="705" alt="Captura de pantalla 2025-12-12 093734" src="https://github.com/user-attachments/assets/4ab9a96b-ffc9-4913-90e8-f795f2c8c21e" />
+
 
 
 ``` python
@@ -171,5 +172,4 @@ print("\nDibujo terminado.")
     Dibujo terminado.
 
 
-<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/d2d4303f-b585-489a-b292-7974c61a6b4b" />
-
+<img width="707" height="842" alt="Captura de pantalla 2025-12-12 093843" src="https://github.com/user-attachments/assets/ead55273-0f9f-4552-88ef-407f62bdc2ec" />
