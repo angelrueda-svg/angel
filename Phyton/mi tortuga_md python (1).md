@@ -1,11 +1,11 @@
-## Ejemplo inicial con `turtle`
+## Ejemplo inicial con `tortuga`
 
 ```python
-import turtle
+tortuga de importación
 
-t = turtle.Turtle()   # Crea una tortuga
-t.forward(100)        # Avanza 100 unidades
-turtle.done()         # Mantiene la ventana abierta
+t = tortuga.Turtle() # Crea una tortuga
+t.forward(100) # Avanza 100 unidades
+tortuga.done() # Mantiene la ventana abierta
 ```
 
 ---
@@ -16,22 +16,22 @@ turtle.done()         # Mantiene la ventana abierta
 print("Simulación de tortuga:")
 
 # Posición inicial
-posicion = 0
-print("La tortuga está en la posición:", posicion)
+posición = 0
+print("La tortuga está en la posición:", posición)
 
 # Avanzar
 input("Presiona ENTER para avanzar 50 unidades...")
 
 # Dibujar rastro con '-' + flecha al final
 pasos = 50
-print("-" * (pasos - 1) + "→")
+imprimir("-" * (pasos - 1) + "→")
 
 # Actualizar posición
 posicion += pasos
 
 # Mostrar nueva posición
 print("La tortuga avanzó", pasos, "unidades.")
-print("La nueva posición es:", posicion)
+print("La nueva posición es:", posición)
 ```
 
 ### Salida
@@ -54,10 +54,10 @@ print("Simulación de tortuga bajando:")
 pasos = 10
 input("Presiona ENTER para que la tortuga comience a bajar...")
 
-for i in range(pasos):
-    print("|")
+para i en rango(pasos):
+    imprimir("|")
 
-print("↓")
+imprimir("↓")
 ```
 
 ### Salida
@@ -86,17 +86,17 @@ posicion_x = 0
 
 
 def adelante(n):
-    global posicion_x
+    posición global_x
     input(f"Presiona ENTER para avanzar {n} unidades hacia la derecha...")
-    print("-" * (n - 1) + "→")
+    imprimir("-" * (n - 1) + "→")
     posicion_x += n - 1
 
 
 def abajo(n):
     input(f"Presiona ENTER para avanzar {n} líneas hacia abajo...")
-    for _ in range(n - 1):
-        print(" " * posicion_x + "|")
-    print(" " * posicion_x + "↓")
+    para _ en rango(n - 1):
+        imprimir(" " * posicion_x + "|")
+    imprimir(" " * posición_x + "↓")
 
 print("Simulación de tortuga:\n")
 
@@ -123,6 +123,7 @@ print("\nLa tortuga ha terminado su recorrido.")
 
 La tortuga ha terminado su recorrido.
 ```
+
 ![Salida del Reto 3 – Forma de L](https://github.com/user-attachments/assets/a6bbba4f-f3d5-40bc-9924-d6bc96bcdb49)
 
 ---
@@ -136,33 +137,33 @@ BASE = 4
 
 
 def adelante(n):
-    global posicion_x
+    posición global_x
     input(f"Presiona ENTER para avanzar {n}...")
-    print(" " * BASE + "-" * (n - 1 + posicion_x) + "→")
+    print(" " * BASE + "-" * (n - 1 + posición_x) + "→")
     posicion_x += n - 1
 
 
 def abajo(n):
     input(f"Presiona ENTER para bajar {n}...")
-    for _ in range(n - 1):
-        print(" " * (BASE + posicion_x) + "|")
-    print(" " * (BASE + posicion_x) + "↓")
+    para _ en rango(n - 1):
+        imprimir(" " * (BASE + posición_x) + "|")
+    imprimir(" " * (BASE + posición_x) + "↓")
 
 print("Simulación de tortuga dibujando escalones\n")
 
-print("    Escalón 1:")
+imprimir("Escalón 1:")
 adelante(5)
 abajo(2)
 
-print("\n    Escalón 2:")
+print("\n Escalón 2:")
 adelante(5)
 abajo(2)
 
-print("\n    Escalón 3:")
+print("\n Escalón 3:")
 adelante(5)
 abajo(2)
 
-print("\n    Dibujo terminado.")
+print("\n Dibujo terminado.")
 ```
 
 ### Salida
@@ -185,7 +186,5 @@ print("\n    Dibujo terminado.")
 
     Dibujo terminado.
 ```
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/a733f49b-f0e1-4fb4-8b8f-663f9f419b21" alt="Salida del Reto 4 – Escalones" width="465">
-</p>
 
+![Salida del Reto 4 – Escalones](https://github.com/user-attachments/assets/a733f49b-f0e1-4fb4-8b8f-663f9f419b21)
