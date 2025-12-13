@@ -151,6 +151,8 @@ print("\nDibujo terminado.")
 ### 📤 Salida esperada
 
 ```
+Simulación de tortuga dibujando escalones
+
 Escalón 1:
 ----→
     |
@@ -167,4 +169,3 @@ Escalón 3:
               ↓
 
 Dibujo terminado.
-
