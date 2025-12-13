@@ -1,37 +1,39 @@
-## Ejemplo inicial con `tortuga`
+# 🐢 Simulación de la Tortuga (Python)
+
+
+---
+
+## 📌 Ejemplo inicial con `turtle`
 
 ```python
-tortuga de importación
+import turtle
 
-t = tortuga.Turtle() # Crea una tortuga
-t.forward(100) # Avanza 100 unidades
-tortuga.done() # Mantiene la ventana abierta
+t = turtle.Turtle()   # Crea una tortuga
+t.forward(100)        # Avanza 100 unidades
+turtle.done()         # Mantiene la ventana abierta
 ```
 
 ---
 
-## Reto 1 – Avance hacia adelante
+## 🟢 Reto 1 – Avance hacia adelante
+
+### Código
 
 ```python
 print("Simulación de tortuga:")
 
-# Posición inicial
-posición = 0
-print("La tortuga está en la posición:", posición)
+posicion = 0
+print("La tortuga está en la posición:", posicion)
 
-# Avanzar
 input("Presiona ENTER para avanzar 50 unidades...")
 
-# Dibujar rastro con '-' + flecha al final
 pasos = 50
-imprimir("-" * (pasos - 1) + "→")
+print("-" * (pasos - 1) + "→")
 
-# Actualizar posición
 posicion += pasos
 
-# Mostrar nueva posición
 print("La tortuga avanzó", pasos, "unidades.")
-print("La nueva posición es:", posición)
+print("La nueva posición es:", posicion)
 ```
 
 ### Salida
@@ -46,7 +48,9 @@ La nueva posición es: 50
 
 ---
 
-## Reto 2 – Movimiento hacia abajo
+## 🟡 Reto 2 – Movimiento hacia abajo
+
+### Código
 
 ```python
 print("Simulación de tortuga bajando:")
@@ -54,10 +58,10 @@ print("Simulación de tortuga bajando:")
 pasos = 10
 input("Presiona ENTER para que la tortuga comience a bajar...")
 
-para i en rango(pasos):
-    imprimir("|")
+for i in range(pasos):
+    print("|")
 
-imprimir("↓")
+print("↓")
 ```
 
 ### Salida
@@ -78,31 +82,30 @@ imprimir("↓")
 
 ---
 
-## Reto 3 – Avanzar y luego bajar (forma de L)
+## 🔵 Reto 3 – Avanzar y luego bajar (forma de L)
+
+### Código
 
 ```python
-# Posición horizontal global de la tortuga
 posicion_x = 0
 
 
 def adelante(n):
-    posición global_x
+    global posicion_x
     input(f"Presiona ENTER para avanzar {n} unidades hacia la derecha...")
-    imprimir("-" * (n - 1) + "→")
+    print("-" * (n - 1) + "→")
     posicion_x += n - 1
 
 
 def abajo(n):
     input(f"Presiona ENTER para avanzar {n} líneas hacia abajo...")
-    para _ en rango(n - 1):
-        imprimir(" " * posicion_x + "|")
-    imprimir(" " * posición_x + "↓")
+    for _ in range(n - 1):
+        print(" " * posicion_x + "|")
+    print(" " * posicion_x + "↓")
 
 print("Simulación de tortuga:\n")
-
 adelante(50)
 abajo(10)
-
 print("\nLa tortuga ha terminado su recorrido.")
 ```
 
@@ -124,67 +127,73 @@ print("\nLa tortuga ha terminado su recorrido.")
 La tortuga ha terminado su recorrido.
 ```
 
-![Salida del Reto 3 – Forma de L](https://github.com/user-attachments/assets/a6bbba4f-f3d5-40bc-9924-d6bc96bcdb49)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a6bbba4f-f3d5-40bc-9924-d6bc96bcdb49" width="550" alt="Salida Reto 3" />
+</p>
 
 ---
 
-## Reto 4 – Dibujar escalones (posición acumulada)
+## 🔴 Reto 4 – Dibujar escalones (posición acumulada)
+
+### Código
 
 ```python
-# Posición horizontal acumulada
 posicion_x = 0
 BASE = 4
 
 
 def adelante(n):
-    posición global_x
+    global posicion_x
     input(f"Presiona ENTER para avanzar {n}...")
-    print(" " * BASE + "-" * (n - 1 + posición_x) + "→")
+    print(" " * BASE + "-" * (n - 1 + posicion_x) + "→")
     posicion_x += n - 1
 
 
 def abajo(n):
     input(f"Presiona ENTER para bajar {n}...")
-    para _ en rango(n - 1):
-        imprimir(" " * (BASE + posición_x) + "|")
-    imprimir(" " * (BASE + posición_x) + "↓")
+    for _ in range(n - 1):
+        print(" " * (BASE + posicion_x) + "|")
+    print(" " * (BASE + posicion_x) + "↓")
 
 print("Simulación de tortuga dibujando escalones\n")
 
-imprimir("Escalón 1:")
+print("Escalón 1:")
 adelante(5)
 abajo(2)
 
-print("\n Escalón 2:")
+print("\nEscalón 2:")
 adelante(5)
 abajo(2)
 
-print("\n Escalón 3:")
+print("\nEscalón 3:")
 adelante(5)
 abajo(2)
 
-print("\n Dibujo terminado.")
+print("\nDibujo terminado.")
 ```
 
 ### Salida
 
 ```text
-    Escalón 1:
-    ----→
+Escalón 1:
+----→
+    |
+    ↓
+
+Escalón 2:
+--------→
         |
         ↓
 
-    Escalón 2:
-    --------→
+Escalón 3:
+------------→
             |
             ↓
 
-    Escalón 3:
-    ------------→
-                |
-                ↓
-
-    Dibujo terminado.
+Dibujo terminado.
 ```
 
-![Salida del Reto 4 – Escalones](https://github.com/user-attachments/assets/a733f49b-f0e1-4fb4-8b8f-663f9f419b21)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a733f49b-f0e1-4fb4-8b8f-663f9f419b21" width="450" alt="Salida Reto 4" />
+</p>
+
