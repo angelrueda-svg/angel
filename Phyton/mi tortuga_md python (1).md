@@ -184,4 +184,5 @@ print("\n    Dibujo terminado.")
 
     Dibujo terminado.
 ```
+<img width="465" height="419" alt="image" src="https://github.com/user-attachments/assets/a733f49b-f0e1-4fb4-8b8f-663f9f419b21" />
 
