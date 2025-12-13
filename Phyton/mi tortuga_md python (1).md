@@ -1,7 +1,3 @@
-# 🐢 Simulación de la Tortuga (print e input)
-
----
-
 ## Ejemplo inicial con `turtle`
 
 ```python
