@@ -89,20 +89,21 @@ print("↓")
 **Objetivo:** Representar un recorrido en forma de **L**.
 
 ```python
-print("Simulación de tortuga:\n")
+print("Simulacion de los pasos de una tortuga") 
 
-# Tramo horizontal
-input("Presiona ENTER para avanzar 50 unidades hacia la derecha...")
-print("-" * 49 + "→")
+Pasos_adelante =int(input("¿Cuántos pasos quieres que avance la tortuga? "))
+Pasos_abajo = int(input("¿Cuántos pasos quieres que baje la tortuga? "))
 
-# Tramo vertical
-input("Presiona ENTER para avanzar 10 líneas hacia abajo...")
-for _ in range(9):
-    print(" " * 49 + "|")
-print(" " * 49 + "↓")
+print("La tortuga avanza", Pasos_adelante, "pasos.")
+print("La tortuga baja", Pasos_abajo, "pasos.")
 
-print("\nLa tortuga ha terminado su recorrido.")
-```
+
+print("🏁" + "-" * Pasos_adelante )
+
+for i in range(Pasos_abajo):
+    print(" " * (Pasos_adelante + 2 ) + "|" )
+
+print(" " * (Pasos_adelante + 1) + "🐢")
 
 ### 📤 Salida esperada
 
