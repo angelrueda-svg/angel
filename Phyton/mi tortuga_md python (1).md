@@ -123,7 +123,7 @@ print("\nLa tortuga ha terminado su recorrido.")
 
 La tortuga ha terminado su recorrido.
 ```
-<img width="548" height="357" alt="image" src="https://github.com/user-attachments/assets/a6bbba4f-f3d5-40bc-9924-d6bc96bcdb49" />
+![Salida del Reto 3 – Forma de L](https://github.com/user-attachments/assets/a6bbba4f-f3d5-40bc-9924-d6bc96bcdb49)
 
 ---
 
