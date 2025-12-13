@@ -131,35 +131,22 @@ La tortuga ha terminado su recorrido.
 ```python
 print("Simulación de tortuga dibujando escalones\n")
 
-# ESCALÓN 1
+# --- ESCALÓN 1 ---
 print("Escalón 1:")
-input("ENTER para avanzar 5...")
-print("----→")
+adelante(5)
+abajo(2, 4)
 
-input("ENTER para bajar 2...")
-print("    |")
-print("    ↓")
-
-# ESCALÓN 2
+# --- ESCALÓN 2 ---
 print("\nEscalón 2:")
-input("ENTER para avanzar 5...")
-print("---------→")
+adelante(10)
+abajo(2, 9)
 
-input("ENTER para bajar 2...")
-print("         |")
-print("         ↓")
-
-# ESCALÓN 3
+# --- ESCALÓN 3 ---
 print("\nEscalón 3:")
-input("ENTER para avanzar 5...")
-print("--------------→")
-
-input("ENTER para bajar 2...")
-print("              |")
-print("              ↓")
+adelante(15)
+abajo(2, 14)
 
 print("\nDibujo terminado.")
-```
 
 ### 📤 Salida esperada
 
