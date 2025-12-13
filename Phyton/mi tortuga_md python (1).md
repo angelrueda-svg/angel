@@ -185,4 +185,7 @@ print("\n    Dibujo terminado.")
 
     Dibujo terminado.
 ```
-![Salida del Reto 4 – Escalones](https://github.com/user-attachments/assets/a733f49b-f0e1-4fb4-8b8f-663f9f419b21)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a733f49b-f0e1-4fb4-8b8f-663f9f419b21" alt="Salida del Reto 4 – Escalones" width="465">
+</p>
+
