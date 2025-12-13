@@ -3,7 +3,7 @@
 
 ---
 
-## 📌 Ejemplo inicial con `turtle`
+##  Ejemplo inicial con `turtle`
 
 ```python
 import turtle
@@ -15,7 +15,7 @@ turtle.done()         # Mantiene la ventana abierta
 
 ---
 
-## 🟢 Reto 1 – Avance hacia adelante
+##  Reto 1 – Avance hacia adelante
 
 ### Código
 
@@ -48,7 +48,7 @@ La nueva posición es: 50
 
 ---
 
-## 🟡 Reto 2 – Movimiento hacia abajo
+## Reto 2 – Movimiento hacia abajo
 
 ### Código
 
@@ -82,7 +82,7 @@ print("↓")
 
 ---
 
-## 🔵 Reto 3 – Avanzar y luego bajar (forma de L)
+##  Reto 3 – Avanzar y luego bajar (forma de L)
 
 ### Código
 
@@ -133,7 +133,7 @@ La tortuga ha terminado su recorrido.
 
 ---
 
-## 🔴 Reto 4 – Dibujar escalones (posición acumulada)
+## Reto 4 – Dibujar escalones (posición acumulada)
 
 ### Código
 
