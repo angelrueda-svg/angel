@@ -1,6 +1,4 @@
-## 🧪 Ejemplo inicial con `turtle`
-
-```python
+``` python
 import turtle
 
 t = turtle.Turtle()   # Crea una tortuga
@@ -8,17 +6,11 @@ t.forward(100)        # Avanza 100 unidades
 turtle.done()         # Mantiene la ventana abierta
 ```
 
-Este ejemplo usa la librería `turtle` para mostrar cómo se mueve gráficamente una tortuga.
+``` python
+#Reto1. Simula el comportamiento de la tortuga usando solo print y input
 
----
-
-## 🟢 Reto 1: Avanzar hacia adelante
-
-**Objetivo:** Simular que la tortuga avanza hacia adelante dibujando su rastro con caracteres.
-
-```python
 print("Simulación de tortuga:")
-
+# Se POSICIONO LA TORTUGA EN LA POSICION INICIAL 0 Y AVANZA 50 UNIDADES DIBUJANDO SU RASTRO
 # Posición inicial
 posicion = 0
 print("La tortuga está en la posición:", posicion)
@@ -26,9 +18,9 @@ print("La tortuga está en la posición:", posicion)
 # Avanzar
 input("Presiona ENTER para avanzar 50 unidades...")
 
-# Dibujar rastro con '-' y flecha
+# Dibujar rastro con '-' + flecha al final
 pasos = 50
-print("-" * (pasos - 1) + "→")
+print("-" * (pasos - 1) + "→")   # 49 guiones + flecha
 
 # Actualizar posición
 posicion += pasos
@@ -38,135 +30,145 @@ print("La tortuga avanzó", pasos, "unidades.")
 print("La nueva posición es:", posicion)
 ```
 
-### 📤 Salida esperada
 
-```
-Simulación de tortuga:
-La tortuga está en la posición: 0
--------------------------------------------------→
-La tortuga avanzó 50 unidades.
-La nueva posición es: 50
-```
+    Simulación de tortuga:
+    La tortuga está en la posición: 0
+    -------------------------------------------------→
+    La tortuga avanzó 50 unidades.
+    La nueva posición es: 50
 
----
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/226a8d3b-58ce-4e95-a42e-0ccad4b3e6d7" />
 
-## 🔽 Reto 2: Movimiento hacia abajo
 
-**Objetivo:** Simular el descenso de la tortuga usando líneas verticales.
+``` python
+#Reto2. Simula la tortuga bajando usando solo print y input
+#crea el rastro de una tortuga moviendose hacia abajo usando unicamente print e input.
 
-```python
 print("Simulación de tortuga bajando:")
+#la tortuga avanza hacia abajo dejando el rastro de su movimiento
+pasos = 10  # cantidad de pasos hacia abajo
 
-pasos = 10
 input("Presiona ENTER para que la tortuga comience a bajar...")
 
 for i in range(pasos):
     print("|")
 
-print("↓")
+print("↓")  # flechita SOLO al final
 ```
 
-### 📤 Salida esperada
 
-```
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-↓
-```
+    Simulación de tortuga bajando:
+    |
+    |
+    |
+    |
+    |
+    |
+    |
+    |
+    |
+    |
+    ↓
 
----
-
-## ↘️ Reto 3: Avanzar y luego bajar (forma de L)
-
-**Objetivo:** Representar un recorrido en forma de **L**.
-
-```python
-print("Simulacion de los pasos de una tortuga") 
-
-Pasos_adelante =int(input("¿Cuántos pasos quieres que avance la tortuga? "))
-Pasos_abajo = int(input("¿Cuántos pasos quieres que baje la tortuga? "))
-
-print("La tortuga avanza", Pasos_adelante, "pasos.")
-print("La tortuga baja", Pasos_abajo, "pasos.")
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/d603f76e-2568-4fed-8ef6-1a3e86dd7d60" />
 
 
-print("🏁" + "-" * Pasos_adelante )
 
-for i in range(Pasos_abajo):
-    print(" " * (Pasos_adelante + 2 ) + "|" )
+``` python
+#Reto3. Tortuga avanzando hacia adelante y luego hacia abajo
+# Crea el rastro de una tortuga moviendose hacia adelante y luego hacai abajo usando unicamente print e input.
 
-print(" " * (Pasos_adelante + 1) + "🐢")
+print("Simulación de tortuga:\n")
+# LA TORTUGA REALIZA UN RECORRIDO EN FORMA DE L
+# Tramo horizontal
+input("Presiona ENTER para avanzar 50 unidades hacia la derecha...")
+print("-" * 49 + "→")   # Flecha al final del tramo horizontal
 
-### 📤 Salida esperada
+# Tramo vertical hacia abajo
+input("Presiona ENTER para avanzar 10 líneas hacia abajo...")
+for _ in range(9):
+    print(" " * 49 + "|")
+print(" " * 49 + "↓")   # Flecha al final del tramo vertical
 
-```
--------------------------------------------------→
-                                                 |
-                                                 |
-                                                 |
-                                                 |
-                                                 |
-                                                 |
-                                                 |
-                                                 |
-                                                 |
-                                                 ↓
-
-La tortuga ha terminado su recorrido.
+print("\nLa tortuga ha terminado su recorrido.")
 ```
 
----
 
-## 🧱 Reto 4: Dibujar escalones (giro automático)
+    Simulación de tortuga:
 
-**Objetivo:** Simular giros y movimientos automáticos para formar escalones.
+    -------------------------------------------------→
+                                                     |
+                                                     |
+                                                     |
+                                                     |
+                                                     |
+                                                     |
+                                                     |
+                                                     |
+                                                     |
+                                                     ↓
 
-```python
+    La tortuga ha terminado su recorrido.
+
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/f727fb1f-6b8c-40e8-a0ab-3fd0bdc2b441" />
+
+
+``` python
+#Reto4. Girar y dibujar usando solo print e input.
+# ahora la tortuga no solo avanza: tambien gira, observa como lo hace la version grafica.
+#LA TORTUGA DIBUJA 3 ESCALONES  SIGUIENDO INSTRUCCIONES Y DIBUJANDO SU RASTRO
 print("Simulación de tortuga dibujando escalones\n")
 
 # --- ESCALÓN 1 ---
 print("Escalón 1:")
-adelante(5)
-abajo(2, 4)
+input("ENTER para avanzar 5...")
+print("----" + "→")     # adelante(5) con flecha final
+
+input("ENTER para bajar 2...")
+print("    |")
+print("    ↓")          # flecha hacia abajo
 
 # --- ESCALÓN 2 ---
 print("\nEscalón 2:")
-adelante(10)
-abajo(2, 9)
+input("ENTER para avanzar 5...")
+print("---------" + "→")   # 10 guiones acumulados + flecha
+
+input("ENTER para bajar 2...")
+print("         |")
+print("         ↓")        # flecha hacia abajo
 
 # --- ESCALÓN 3 ---
 print("\nEscalón 3:")
-adelante(15)
-abajo(2, 14)
+input("ENTER para avanzar 5...")
+print("--------------" + "→")   # 15 guiones acumulados + flecha
+
+input("ENTER para bajar 2...")
+print("              |")
+print("              ↓")        # flecha hacia abajo
 
 print("\nDibujo terminado.")
-
-### 📤 Salida esperada
-
 ```
-Simulación de tortuga dibujando escalones
 
-Escalón 1:
-----→
-    |
-    ↓
 
-Escalón 2:
----------→
-         |
-         ↓
+    Simulación de tortuga dibujando escalones
 
-Escalón 3:
---------------→
-              |
-              ↓
+    Escalón 1:
+    ----→
+        |
+        ↓
 
-Dibujo terminado.
+    Escalón 2:
+    ---------→
+             |
+             ↓
+
+    Escalón 3:
+    --------------→
+                  |
+                  ↓
+
+    Dibujo terminado.
+
+
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/d2d4303f-b585-489a-b292-7974c61a6b4b" />
+
