@@ -17,8 +17,9 @@ turtle.done()         # Mantiene la ventana abierta
 
 ---
 
-## Reto 1 – Avance hacia adelante
-
+## Reto 1 –Simula el comportamiento de la tortuga usando solo print y input
+Avance hacia adelante
+# SE POSICIONO LA TORTUGA EN LA POSICION INICIAL 0 Y AVANZA 50 UNIDADES DIBUJANDO SU RASTRO
 ### Código
 
 ```python
@@ -47,10 +48,13 @@ La tortuga está en la posición: 0
 La tortuga avanzó 50 unidades.
 La nueva posición es: 50
 ```
+<img width="600" height="165" alt="Captura de pantalla 2025-12-14 093112" src="https://github.com/user-attachments/assets/f1de8c72-8267-4f24-bc97-352def62f9f0" />
 
 ---
 
-## Reto 2 – Movimiento hacia abajo
+## Reto 2 – Simula la tortuga bajando usando solo print y input
+# crea el rastro de una tortuga moviendose hacia abajo usando unicamente print e input.
+Movimiento hacia abajo
 
 ### Código
 
@@ -84,7 +88,10 @@ print("↓")
 
 ---
 
-## Reto 3 – Avanzar y luego bajar (forma de L)
+## Reto 3 – Girar y dibujar usando solo print() e input()
+# Tortuga avanzando hacia adelante y luego hacia abajo
+# Crea el rastro de una tortuga moviendose hacia adelante y luego hacai abajo usando unicamente print e input.
+Avanzar y luego bajar (forma de L)
 
 ### Código
 
@@ -133,7 +140,8 @@ La tortuga ha terminado su recorrido.
 
 ---
 
-## Reto 4 – Dibujar escalones (posición acumulada)
+## Reto 4 – : Encapsula los comportamientos anteriores usando funciones
+Dibujar escalones (posición acumulada)
 
 ### Código
 
