@@ -1,10 +1,3 @@
-Aquí tienes el texto **corregido y bien formateado en Markdown**, manteniendo el contenido pero arreglando:
-
-* Errores de sintaxis (`pitón` → `python`)
-* Palabras mal traducidas (`imprimir`, `para`, `rango`, `posición global_x`)
-* Variables inconsistentes (`posición` / `posicion`)
-* Bloques de código y títulos
-* Claridad general del documento
 
 ---
 
@@ -203,5 +196,3 @@ Dibujo terminado.
 </p>
 
 ---
-
-* Convertir esto en **README.md listo para GitHub**
