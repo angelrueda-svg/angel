@@ -6,4 +6,4 @@
 -San Antonio de prado, Aragon 
 
 *** Ultima entrada 
-[Simulando los pasos de una tortuga](Phyton/mi%20tortuga_md%20python%20(1).md)
+[Simulando los pasos de una tortuga](Phyton/mi tortuga_md python (1).md)
