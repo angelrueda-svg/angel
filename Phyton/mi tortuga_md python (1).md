@@ -1,12 +1,18 @@
-````
-Markdown 
+Aquí tienes el texto **corregido y bien formateado en Markdown**, manteniendo el contenido pero arreglando:
 
-# 🐢 Simulación de la Tortuga (Python)
-
+* Errores de sintaxis (`pitón` → `python`)
+* Palabras mal traducidas (`imprimir`, `para`, `rango`, `posición global_x`)
+* Variables inconsistentes (`posición` / `posicion`)
+* Bloques de código y títulos
+* Claridad general del documento
 
 ---
 
-##  Ejemplo inicial con `turtle`
+# 🐢 Simulación de la Tortuga (Python)
+
+---
+
+## Ejemplo inicial con `turtle`
 
 ```python
 import turtle
@@ -18,7 +24,7 @@ turtle.done()         # Mantiene la ventana abierta
 
 ---
 
-##  Reto 1 – Avance hacia adelante
+## Reto 1 – Avance hacia adelante
 
 ### Código
 
@@ -85,20 +91,18 @@ print("↓")
 
 ---
 
-##  Reto 3 – Avanzar y luego bajar (forma de L)
+## Reto 3 – Avanzar y luego bajar (forma de L)
 
 ### Código
 
 ```python
 posicion_x = 0
 
-
 def adelante(n):
     global posicion_x
     input(f"Presiona ENTER para avanzar {n} unidades hacia la derecha...")
     print("-" * (n - 1) + "→")
     posicion_x += n - 1
-
 
 def abajo(n):
     input(f"Presiona ENTER para avanzar {n} líneas hacia abajo...")
@@ -144,13 +148,11 @@ La tortuga ha terminado su recorrido.
 posicion_x = 0
 BASE = 4
 
-
 def adelante(n):
     global posicion_x
     input(f"Presiona ENTER para avanzar {n}...")
     print(" " * BASE + "-" * (n - 1 + posicion_x) + "→")
     posicion_x += n - 1
-
 
 def abajo(n):
     input(f"Presiona ENTER para bajar {n}...")
@@ -200,4 +202,6 @@ Dibujo terminado.
   <img src="https://github.com/user-attachments/assets/a733f49b-f0e1-4fb4-8b8f-663f9f419b21" width="450" alt="Salida Reto 4" />
 </p>
 
-```
+---
+
+* Convertir esto en **README.md listo para GitHub**
