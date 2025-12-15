@@ -10,4 +10,3 @@
 
 - [Evolucion de mini turtle](tarea3.md) 
 
-- [Version orientada a objetos poo](tarea3.md)
